@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Aplicación</string>
+
+    <string name="title_intro_slade_1">Titulo 1</string>
+    <string name="title_intro_slade_2">Titulo 2</string>
+    <string name="title_intro_slade_3">Titulo 3</string>
+    <string name="title_intro_slade_4">Titulo 4</string>
+    <string name="title_intro_slade_5">Titulo 5</string>
+    <string name="title_intro_slade_6">Titulo 6</string>
+
+    <string name="description_intro_slade_1">ahora en katumba tambien vendemos experiencia..</string>
+    <string name="description_intro_slade_2">Tener un lugar agradable para los clientes</string>
+    <string name="description_intro_slade_3">Tener la mejor actitud para atenderlos</string>
+    <string name="description_intro_slade_4">Estar motivamos</string>
+    <string name="description_intro_slade_5">Mostrar una sonrisa al cliente</string>
+    <string name="description_intro_slade_6">Y por supuesto, atenderlo como él merece</string>
+
+</resources>

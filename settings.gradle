@@ -1,0 +1,3 @@
+rootProject.name='MarianaLibAppIntro'
+include ':app', ':modulemarianalibappintro-release'
+include ':modulemarianalibappintro'

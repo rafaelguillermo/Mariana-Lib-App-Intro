@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/intro_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f44336"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/intro_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center"
+        android:paddingTop="@dimen/intro_top_padding"
+        android:paddingBottom="@dimen/intro_bottom_padding"
+        android:text="@string/title_intro_slade_2"
+        android:textColor="#ffffff"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/intro_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_500_500"
+        android:layout_weight="5"
+        android:paddingStart="@dimen/intro_side_padding"
+        android:paddingLeft="@dimen/intro_side_padding"
+        android:paddingEnd="@dimen/intro_side_padding"
+        android:paddingRight="@dimen/intro_side_padding"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/intro_image_small"
+        android:layout_width="450dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="5"
+        android:paddingStart="@dimen/intro_side_padding"
+        android:paddingLeft="@dimen/intro_side_padding"
+        android:paddingTop="@dimen/intro_side_padding"
+        android:paddingEnd="@dimen/intro_side_padding"
+        android:paddingRight="@dimen/intro_side_padding"
+        android:paddingBottom="@dimen/intro_side_padding"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/intro_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="64dp"
+        android:paddingTop="@dimen/intro_top_padding"
+        android:paddingRight="64dp"
+        android:paddingBottom="@dimen/intro_bottom_padding"
+        android:text="@string/description_intro_slade_2"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="64dp" />
+</LinearLayout>
