@@ -41,6 +41,15 @@ public abstract class IntroductionActivity extends AppIntro2 {
     }
 
     /**
+     * Intensidad de la vibración
+     * @param intensity
+     */
+    @Override
+    public void setVibrateIntensity(int intensity) {
+        super.setVibrateIntensity(intensity);
+    }
+
+    /**
      * <p>Se habilita la opcion de vibrar al pasar a la siguiente pagina o layout</p>
      * <br /><h3>Nota importante</h3>
      * <p>Recuerde adicionar la propiedad uses-permission android:name="android.permission.VIBRATE" en el
